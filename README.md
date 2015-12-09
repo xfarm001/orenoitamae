@@ -15,6 +15,7 @@
 - $ yum localinstall VirtualBox-5.0-5.0.10_104061_el7-1.x86_64.rpm
 - $ yum localinstall vagrant_1.7.4_x86_64.rpm
 - $ vagrant box add CentOS67 https://github.com/CommanderK5/packer-centos-template/releases/download/0.6.7/vagrant-centos-6.7.box
+- $ vagrant box add tsunokawa/centos7.0.1406
 
 - $ /usr/lib/virtualbox/vboxdrv.sh setup
 

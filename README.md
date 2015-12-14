@@ -35,6 +35,13 @@ ln -s /usr/src/kernels/4.2.6-301.fc23.x86_64 /usr/src/kernels/4.2.3-300.fc23.x86
 - $ rvm reload
 - $ rvm install 2.2.0
 
+- $ rvm gemset create rails4
+- $ rvm gemset use rails4 --default
+- $ rvm gemset list
+
+- $ gem install rails --version "4.2.0" --no-ri --no-rdoc
+
+- $ rails s -b 0.0.0.0
 
 #### install itamae ####
 - $ gem install itamae

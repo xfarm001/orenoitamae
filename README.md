@@ -33,7 +33,7 @@ ln -s /usr/src/kernels/4.2.6-301.fc23.x86_64 /usr/src/kernels/4.2.3-300.fc23.x86
 - $ curl -L get.rvm.io | bash -s stable
 - $ source /etc/profile.d/rvm.sh
 - $ rvm reload
-- $ rvm install 2.2.0
+- $ rvm install 2.3.0
 
 - $ rvm gemset create rails4
 - $ rvm gemset use rails4 --default

@@ -1,9 +1,10 @@
 execute "edit hosts" do
   command "cat << EOS >> /etc/hosts
-192.168.17.146  hadoop01
-192.168.17.147  hadoop02
-192.168.17.148  hadoop03
-192.168.17.149  hadoop04
+10.86.194.252	hadoop00
+10.86.194.56	hadoop01
+10.86.193.157	hadoop02
+10.86.194.95	hadoop03
+10.86.194.104	hadoop04
 EOS"
 end
 

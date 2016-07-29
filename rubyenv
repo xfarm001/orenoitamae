@@ -1,12 +1,17 @@
 #!/bin/bash
 
 curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+sleep 1
 curl -L get.rvm.io | bash -s stable
+sleep 1
 source /etc/profile.d/rvm.sh
-
+sleep 1
 rvm reload
+sleep 1
 rvm install 2.3.0
+sleep 1
 rvm gemset create rails4
+sleep 1
 rvm gemset use rails4 --default
-
+sleep 1
 gem install rails --version "4.2.0" --no-ri --no-rdoc
